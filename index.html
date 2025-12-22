@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>34 tỉnh thành mới</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <!-- ===== CỘT TRÁI: BẢN ĐỒ ===== -->
+  <div class="map-panel">
+    <h2>34 tỉnh thành mới</h2>
+    <p class="note">● Trung tâm hành chính mới</p>
+    <img src="images/vietnam-map.png" alt="Bản đồ Việt Nam">
+  </div>
+
+  <!-- ===== CỘT GIỮA: DANH SÁCH TỈNH ===== -->
+  <div class="list-panel">
+    <div id="provinceList" class="province-grid">
+      <!-- JS tự render nút tỉnh ở đây -->
+    </div>
+  </div>
+
+  <!-- ===== CỘT PHẢI: THÔNG TIN TỈNH ===== -->
+  <div class="info-panel">
+    <h1 id="provinceTitle">CHỌN MỘT TỈNH</h1>
+
+    <!-- ❗ QUAN TRỌNG: PHẢI LÀ UL -->
+    <ul id="provinceInfo">
+      <!-- JS tự render info gạch đầu dòng -->
+    </ul>
+  </div>
+
+</div>
+
+<!-- LOAD DATA TRƯỚC -->
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
